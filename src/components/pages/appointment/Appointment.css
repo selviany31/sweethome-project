@@ -1,0 +1,399 @@
+/* html, */
+/* body {
+  width: 100%;
+  height: 100%;
+  font-family: Noto Sans;
+} */
+/* .container {
+  margin: 50px 175px;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.appointment {
+  /* position: absolute; */
+  width: 100%;
+  height: 181px;
+  /* left: 0px; */
+  margin-top: 72px;
+  background-color: #f2d555;
+}
+.appointment-title {
+  padding: 61px 0 0 64px;
+  height: 120px;
+  left: 0px;
+  top: 72px;
+  background-color: #f2d555;
+}
+.appointment-title h3 {
+  margin: 0;
+}
+.appointment-title p {
+  margin-top: 8px;
+}
+.appointment-link {
+  /* position: relative; */
+  /* top: 40px; */
+}
+.appointment-btn {
+  display: inline-block;
+  width: 33%;
+  padding: 10px 0px;
+  text-align: center;
+  background-color: #f2d555;
+  color: 000000;
+  font-weight: 700;
+  size: 16px;
+  text-decoration: none;
+  /* top: 253px; */
+}
+.appointment-btn2 {
+  display: inline-block;
+  width: 33%;
+  padding: 10px 0px;
+  text-align: center;
+  background-color: #e3e3e3;
+  color: 000000;
+  font-weight: 700;
+  size: 16px;
+  text-decoration: none;
+}
+.appointment-btn3 {
+  display: inline-block;
+  width: 34%;
+  padding: 10px 0px;
+  text-align: center;
+  background-color: #f8f8f8;
+  color: 000000;
+  font-weight: 700;
+  size: 16px;
+  text-decoration: none;
+}
+
+.appointment-btn-list {
+  border-radius: 50%;
+  background-color: #214457;
+  color: #ffff;
+  padding: 1px 7px;
+  margin-right: 10px;
+}
+.appointment-btn-list1 {
+  border-radius: 50%;
+  background-color: #999999;
+  color: #ffff;
+  padding: 1px 7px;
+  margin-right: 10px;
+}
+
+/* EnquiryDetails CSS */
+/* body {
+  width: 100%;
+  height: 100%;
+  font-family: Noto Sans;
+} */
+.container-wrapper {
+  /* position: relative; */
+  /* top: 30px; */
+  margin: 50px 175px 200px 175px;
+}
+.enquiry-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.enquiry-wrapper div {
+  width: 47%;
+  margin-bottom: 20px;
+}
+
+.enquiry-wrapper div:nth-child(odd) {
+  margin-right: 6%;
+}
+.enquiry-label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+.enquiry-label span {
+  color: red;
+}
+.enquiry-select {
+  margin-top: 5px;
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid #bdbdbd;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 5px;
+  /* color: #999999; */
+}
+select option:nth-child(1) {
+  color: #999999;
+  /* display: none; */
+  /* color: black; */
+}
+select option {
+  color: black;
+}
+.enquiry-input {
+  width: 90%;
+  border: 0px solid #bdbdbd;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 5px;
+  margin: 0px 5px;
+  /* margin-top: 5px; */
+}
+.enquiry-wrapper .appointment-border-input {
+  width: 100%;
+}
+.appointment-border-input {
+  width: 100%;
+  display: flex;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 0px 10px;
+}
+.appointment-border-input span {
+  margin: 5px;
+  padding: 5px 0px;
+}
+.appointment-border-input hr {
+  width: 0px;
+  border-left: 0.5px solid #999999;
+  border-right: 0px;
+  background-color: #999999;
+  margin: 5px;
+  padding: 5px 0px;
+}
+textarea {
+  border-radius: 5px;
+  border: 1px solid #bdbdbd;
+  margin-top: 5px;
+  width: 100%;
+  height: 95px;
+  padding: 10px 10px;
+}
+.filter-preferred {
+  display: flex;
+  margin: 30px 0px;
+  width: 100%;
+}
+.filter-preferred div:nth-child(1) {
+  margin-right: 6%;
+}
+.filter-wrapper {
+  padding: 5px 5px;
+  max-width: 47%;
+  width: 47%;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  margin: 0px;
+}
+.filter-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.filter-title span:nth-child(2) {
+  font-family: Noto Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 20px;
+
+  text-align: right;
+
+  color: #999999;
+}
+
+.filter-btn-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+.filter-btn {
+  height: 30px;
+  font-size: 11px;
+  line-height: 16px;
+  background: #ffffff;
+  border: 1px solid #214457;
+  box-sizing: border-box;
+  border-radius: 7px;
+  margin: 3px 3px;
+  color: #214457;
+  padding: 0px 5px;
+}
+.filter-btn-active {
+  height: 30px;
+  font-size: 11px;
+  line-height: 16px;
+  background: #214457;
+  border: 1px solid #214457;
+  box-sizing: border-box;
+  border-radius: 7px;
+  margin: 3px 3px;
+  color: #ffffff;
+  padding: 0px 5px;
+}
+.filter-date {
+  min-height: 150px;
+  width: 100%;
+  padding: 5px 10px;
+  background-color: #f8f8f8;
+  margin-top: 20px;
+}
+.unstyled {
+  /* display: none;` bgd */
+  -webkit-appearance: none;
+}
+.filter-radio {
+  margin-bottom: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.appointment-radio-label{
+  font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #373737;
+}
+.review-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  line-height: 20px;
+}
+.review-wrapper div:not(:nth-child(4)) {
+  margin-right: 68px;
+}
+.review-wrapper p {
+  margin: 0px;
+}
+.appointment-review p:nth-child(1) {
+  color: #999999;
+  margin-top: 29px;
+}
+.appointment-review p:nth-child(2) {
+  font-weight: 700;
+}
+.appointment-review p {
+  margin: 0px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.review-wrapper p:nth-child(1) {
+  margin: 0;
+  color: #999999;
+}
+.btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-submit {
+  margin: 50px 0;
+  padding: 15px 60px;
+  cursor: pointer;
+  background: #214457;
+  box-shadow: 0px 4px 10px rgba(33, 68, 87, 0.2);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  border: 0px;
+}
+.check {
+  padding-right: 15px;
+}
+
+/* Media Query */
+@media only screen and (max-width: 576px) {
+  .container-wrapper {
+    margin: 50px 25px;
+  }
+  .appointment-title {
+    padding: 24px 0 0 24px;
+  }
+  .appointment-link .appointment-btn,
+  .appointment-btn2,
+  .appointment-btn3 {
+    width: 100%;
+  }
+  .enquiry-wrapper {
+    width: 100%;
+  }
+  .enquiry-wrapper div {
+    width: 100%;
+  }
+  .enquiry-wrapper div:nth-child(odd) {
+    margin-right: 0;
+  }
+  .enquiry-select {
+    width: 100%;
+  }
+  .textarea {
+    margin-right: 20px;
+  }
+
+  .filter {
+    display: inline-block;
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+  .filter div:nth-child(1) {
+    margin-right: 0px;
+  }
+  .filter-wrapper {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .filter-date {
+    width: 95%;
+  }
+  .btn-wrapper {
+    display: inline-block;
+    width: 100%;
+  }
+  .btn-submit {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container-wrapper {
+    margin: 50px 50px;
+  }
+  .appointment {
+    width: 100%;
+  }
+  .filter-date {
+    width: 97%;
+  }
+}
+@media only screen and (min-width: 1022px) {
+  .container-wrapper {
+    position: relative;
+    top: 30px;
+    margin: 50px 175px 200px 175px;
+  }
+  .appointment {
+    width: 100%;
+  }
+  .filter-date {
+    width: 100%;
+  }
+}

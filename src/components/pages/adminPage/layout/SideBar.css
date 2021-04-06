@@ -1,0 +1,96 @@
+.sidebar {
+  height: 100%;
+  background-color: #214457;
+  width: 18%;
+  position: fixed;
+}
+
+.admin-profile {
+  display: flex;
+  padding-top: 10%;
+  padding-left: 12%;
+  /* padding-top: 30px; */
+}
+.profile-pic {
+  width: 43px;
+  height: 43px;
+  background-color: white;
+  border-radius: 50%;
+}
+.admin-name {
+  width: 150px;
+  height: 26px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  padding-left: 12%;
+}
+.admin-role {
+  padding-left: 12%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.admin-tabs {
+  padding-top: 20%;
+  padding-left: 15%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.admin-tabs p {
+  padding-bottom: 30px;
+}
+
+.adm-tab-active {
+  color: #f2d555;
+  font-weight: bold;
+}
+/* .adm-setting {
+  padding-top: 30px;
+  padding-left: 15%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.adm-setting-active {
+  color: #f2d555;
+  font-weight: bold;
+} */
+
+.admin-setting-special {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-left: -18%;
+  padding-left: 18%;
+  padding-top: 7%;
+  margin-top: -7%;
+}
+
+.setting-dropdown {
+  padding-left: 19%;
+  color: #999999;
+  margin-top: -7%;
+  padding-bottom: 7%;
+}
+
+.setting-dropdown p {
+  padding-bottom: 7%;
+}
+.setting-dropdown-active {
+  color: #ffffff;
+  font-weight: bold;
+}

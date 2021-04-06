@@ -1,0 +1,164 @@
+.admin-navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-left: 0;
+}
+.admin-navbar .navbar-logo{
+    margin-left: 20px;
+}
+.admin-navbar .col-2-border{
+    border: 0px;
+    background-color: transparent;
+    padding: 0px 20px;
+    margin: 0;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    cursor: pointer;
+}
+.overview-container{
+    margin-left: 18%;
+    padding: 0px 30px 30px 30px;
+}
+
+.overview-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    color: #252733;
+    margin-bottom: 10px;
+}
+.upcoming-appointment-container{
+    /* width: 72%; */
+}
+
+.upcoming-appointment-date{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.upcoming-appointment-date-1{
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.upcoming-appointment-date-todaytitle{
+    width: 275px;
+    height: 30px;
+    background: #F2D555;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.upcoming-appointment-date-2{
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.upcoming-appointment-date-title{
+width: 272.56px;
+height: 31px;
+background: #E3E3E3;
+text-align: center;
+margin-bottom: 10px;
+}
+
+.upcoming-appointment-date-3{
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.chart-overview-container{
+background: #FFFFFF;
+border: 1px solid #DFE0EB;
+box-sizing: border-box;
+border-radius: 8px;
+padding: 35px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+} @media (max-width: 800px) {
+    .chart-overview-container {
+        flex-direction: column;
+    }
+}
+
+.chart-data{
+    width: 100%;
+    min-height: 100px;
+}
+
+.chart-detail{
+    border: 1px solid rgba(223, 224, 235, 1);
+    width: 25%;
+}
+
+.chart-detail h4{
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+text-align: center;
+color: #9FA2B4;
+}
+
+.chart-detail p{
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+text-align: center;
+color: #252733;
+}
+.content-overview-adm div p{
+    font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.2px;
+}
+.content-overview-adm div span{
+    font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.2px;
+}
+.content-overview-adm hr {
+    border-top: 0.5px solid #DFE0EB;
+    margin: 10px 0;
+}
+.overview-project {
+    font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.2px;
+
+/* BW/Ash */
+
+color: #999999;
+}

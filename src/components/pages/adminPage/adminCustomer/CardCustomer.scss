@@ -1,0 +1,41 @@
+.customer_card_detail {
+    border-bottom: 2px solid #DFE0EB;
+    padding: 24px 3.8%;
+    display: flex;
+    img {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: white;
+        border: 1px solid #DFE0EB;
+        margin-right:24px ;
+    } > :nth-child(2){
+        width: 60%;    
+    }
+        p {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        text-decoration-line: underline;
+        color: #252733;
+        } span {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        color: #C5C7CD;
+        } label {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #252733;
+        }
+}

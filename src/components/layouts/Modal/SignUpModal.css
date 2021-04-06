@@ -1,0 +1,295 @@
+.signup-background {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  top: 0;
+  left: 0;
+  cursor: auto;
+}
+.signup-container {
+  width: 1202px;
+  height: 735px;
+  z-index: 5;
+  position: relative;
+}
+
+.signup-content {
+  right: 0;
+  background-color: #ffffff;
+  width: 607px;
+  height: 735px;
+  position: absolute;
+}
+
+.signup-content h4 {
+  position: absolute;
+  width: 122px;
+  height: 36px;
+  left: 59px;
+  top: 40px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 35px;
+  color: #214457;
+  margin: 0;
+}
+.signup-content p {
+  position: absolute;
+  height: 20px;
+  left: 59px;
+  top: 84px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #999999;
+  margin: 0;
+}
+.signup-content span {
+  color: #214457;
+  margin: 0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.signup-fname {
+  top: 190px;
+  left: 59px;
+  position: absolute;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #373737;
+  margin: 0;
+}
+.signup-fname-input {
+  position: absolute;
+  height: 50px;
+  width: 207px;
+  left: 59px;
+  top: 217px;
+  border-radius: 3px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #999999;
+  padding-left: 1rem;
+  border: 1px solid #999999;
+}
+
+.signup-lname {
+  top: 190px;
+  left: 320px;
+  position: absolute;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #373737;
+  margin: 0;
+}
+.signup-lname-input {
+  position: absolute;
+  height: 50px;
+  width: 207px;
+  left: 320px;
+  top: 217px;
+  border-radius: 3px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #999999;
+  padding-left: 1rem;
+  border: 1px solid #999999;
+}
+
+.signup-email {
+  position: absolute;
+  right: 55.17%;
+  left: 59px;
+  top: 296px;
+  bottom: 13.04%;
+  margin: 0;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #373737;
+}
+.signup-email-input {
+  position: absolute;
+  height: 50px;
+  width: 470px;
+  left: 59px;
+  top: 323px;
+  border-radius: 3px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #999999;
+  padding-left: 1rem;
+  border: 1px solid #999999;
+}
+.signup-password {
+  position: absolute;
+  left: 59px;
+  top: 402px;
+  bottom: 13.04%;
+  margin: 0;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #373737;
+}
+.signup-password-input {
+  position: absolute;
+  height: 50px;
+  width: 470px;
+  left: 59px;
+  top: 429px;
+  border-radius: 3px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #999999;
+  padding-left: 1rem;
+  border: 1px solid #999999;
+}
+
+.signup-img {
+  width: 1202px;
+  height: 735px;
+  position: absolute;
+}
+
+.signup-button {
+  position: absolute;
+  width: 275px;
+  height: 55px;
+  left: 165px;
+  top: 526px;
+  background: #f2d555;
+  box-shadow: 0px 4px 10px rgba(33, 68, 87, 0.2);
+  margin: 0;
+  border: 1px solid #f2d555;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.signup-line-hr {
+  position: absolute;
+  width: 468.5px;
+  height: 0px;
+  left: 69px;
+  top: calc(50% - 0px / 2 + 242.5px);
+  margin: 0;
+  border: 1px solid #e3e3e3;
+}
+.signup-welcome {
+  position: absolute;
+  width: 359px;
+  height: 51px;
+  left: 26px;
+  top: 487px;
+  margin: 0;
+  font-family: EB Garamond;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  color: #ffffff;
+}
+.signup-p {
+  position: absolute;
+  margin: 0;
+  width: 342px;
+  height: 70px;
+  left: 26px;
+  top: 623px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.google-btn {
+  position: absolute;
+  width: 164px;
+  height: 42px;
+  left: 131px;
+  top: calc(50% - 42px / 2 + 304.5px);
+  background: #f0f2e9;
+  box-shadow: 0px 4px 10px rgba(33, 68, 87, 0.2);
+  border: 1px solid #f0f2e9;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  /* text-align: center; */
+  color: #214457;
+  margin: 0;
+  cursor: pointer;
+}
+
+.facebook-btn {
+  position: absolute;
+  width: 164px;
+  height: 42px;
+  left: 311px;
+  top: calc(50% - 42px / 2 + 304.5px);
+  background: #f0f2e9;
+  box-shadow: 0px 4px 10px rgba(33, 68, 87, 0.2);
+  border: 1px solid #f0f2e9;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  /* text-align: center; */
+  color: #214457;
+  margin: 0;
+  cursor: pointer;
+}
+div p.signup-error-msg{
+position: absolute;
+  /* height: 50px;
+  width: 470px; */
+  left: 59px;
+  top: 485px;
+  /* border-radius: 3px; */
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: red;
+  /* padding-left: 1rem; */
+  /* border: 1px solid #999999; */
+}

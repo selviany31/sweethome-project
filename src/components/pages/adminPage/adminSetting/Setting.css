@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.setting-container {
+  margin-left: 18%;
+  background-color: #f8f8f8;
+  padding: 30px;
+}
+.setting-container .adm-appointment-title  span:nth-child(1), .setting-container > p:nth-child(1) {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  color: #252733;
+  margin-bottom: 20px;
+}
+.setting-container .adm-appointment-ticket {
+  font-family: Mulish;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  font-weight: normal;
+  margin: 0 20px 0 10px;
+}
+.setting-container > div {
+  margin-bottom: 10px;
+}
+
+.adm-title-setting {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  /* font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  margin-bottom: 20px; */
+
+/* grayscale / black */
+
+color: #252733;
+}
+.setting-wrapper {
+  background-color: #ffffff;
+  border: 1px solid #e3e3e3;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 30px 0px;
+}
+.setting-head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+.setting-head p {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000000;
+}
+.setting-content-btn {
+  border: 1px solid #214457;
+  border-radius: 7px;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #214457;
+  margin: 0px 5px;
+  background-color: transparent;
+}
+.setting-content-btn:hover{
+  padding: 5px 20px;
+  background-color: #214457;
+  color: #ffffff;
+}
+.setting-content-btn-active{
+  border: 1px solid #214457;
+  border-radius: 7px;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: #214457;
+  margin: 0px 5px;
+  color: #ffffff;
+}
+.setting-content-btn-active:hover{
+  padding: 5px 20px;
+}
+.setting-content-btn:nth-child(1) {
+  margin-left: 0px;
+}
+.setting-content-btn-active {
+  background-color: #214457;
+  color: #ffffff;
+}
+.setting-content-wrapper {
+  margin-top: 40px;
+}
+.setting-table{
+  width: 100%;
+  border-collapse: collapse;
+  padding: 0;
+  margin-top: 25px;
+}
+.setting-table-head {
+  text-align: left;
+}
+.setting-table-head tr td {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #9fa2b4;
+}
+.setting-table td {
+  /* border-collapse: collapse; */
+  border-bottom: 1.5px solid #dfe0eb;
+  padding: 10px 30px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #252733;
+}
+
+.setting-table-head tr td:nth-child(1){
+  width: 50%;
+}
+.setting-table-head tr td:nth-child(2) {
+  width: 40%;
+}
+.setting-table-icon {
+  color: #c5c7cd;
+}
+
+
+.setting-btn-submit {
+  padding: 3px 20px;
+  background: #214457;
+  box-shadow: 0px 4px 10px rgba(33, 68, 87, 0.2);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 22px;
+  color: #ffffff;
+  border: 0px;
+}
+.setting-btn-submit:hover {
+  padding: 5px 23px;
+}
+.setting-plus-icon {
+  color: #ffffff;
+  margin-right: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  /* padding-top: 5px; */
+}
+.setting-modal-container {
+  position: absolute;
+  background-color: #ffffff;
+  width: 40%;
+  padding: 15px 20px;
+  border: 0px;
+}
+.setting-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(100, 4%, 15%, 0.8);
+  z-index: 99;
+}
+.setting-modal-wrapper {
+  /* position: relative; */
+  /* width: 500px; */
+}
+.setting-modal-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  /* padding: 15px 20px; */
+}
+.setting-modal-content p {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+}
+.setting-modal-content button {
+  background-color: transparent;
+  border: 0px;
+}
+.setting-modal-form {
+  width: 100%;
+}
+.setting-modal-form label {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  color: #373737;
+}
+.setting-modal-form input {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  color: #373737;
+  border: 1px solid #dfe0eb;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border-radius: 5px;
+  /* width: 50%; */
+}
+.setting-modal-form label span {
+  color: red;
+}
+.setting-input-content {
+  width: 100%;
+}
+.setting-btn-modal-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.setting-btn-modal {
+  background: #f2d555;
+  box-shadow: 0px 4px 10px rgba(33, 68, 87, 0.2);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  color: #373737;
+  border: 0px solid #f2d555;
+  padding: 7px 25px;
+}
+.setting-btn-timeslot {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+.setting-btn-icon {
+  border: 0px;
+  background: transparent;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #4b506d;
+  /* padding-left: 20px; */
+  padding: 0px 5px;
+  cursor: pointer;
+}
+.setting-table-icon:hover{
+  color: #214457;
+}
+.setting-btn-icon span {
+  margin-left: 5px;
+}
+.setting-btn-icon-wrapper{
+  display: flex;
+}
+.setting-modal-timeslot {
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%; */
+}
+.setting-modal-timeslot div {
+  width: 95%;
+}
+.setting-modal-timeslot div:nth-child(1) {
+  width: 95%;
+  margin-right: 5%;
+}
+.setting-modal-timeslot input {
+  width: 100%;
+}
+.spinner-container{
+  position: fixed;
+  top: 0;
+  left: 18vw;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

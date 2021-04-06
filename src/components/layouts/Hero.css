@@ -1,0 +1,102 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+.hero-profile-container{
+  display: flex;
+  align-items: center;
+  margin-top: 23px;
+  margin-left: 16px;
+  border-left: 1px solid #214457;
+}
+li p,
+.hero-dropbtn {
+  /* display: flex; */
+  color: #214457;
+  font-size: 16px;
+  line-height: 25.2px;
+  padding-left: 16px;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+
+}
+
+li p:hover,
+.hero-dropdown:hover .dropbtn {
+  cursor: pointer;
+}
+
+li.hero-dropdown {
+  display: inline-block;
+}
+
+.hero-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.hero-dropdown-content p {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.hero-dropdown-content p:hover {
+  background-color: #e7e7e7;
+}
+
+.hero-dropdown:hover .hero-dropdown-content {
+  display: block;
+}
+div img.img-profile-hero{
+  width:34px;
+  height: 34px;
+  border-radius: 50%;
+  margin-top: 0;
+  margin-left: 32px;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+ li p, .hero-dropbtn{
+   font-size: 10px;
+ }
+ .hero-profile-container{
+   margin-top: 0.75rem;
+   
+ }
+ div img.img-profile-hero{
+   width:1.25rem;
+  height: 1.25rem;
+  margin-left: 1rem;
+ }
+}
+
+@media screen and (max-width: 1000px) and (min-width:600px) {
+  li p, .hero-dropbtn{
+   font-size: 10px;
+ }
+ .hero-profile-container{
+   margin-top: 0.75rem;
+   
+ }
+ div img.img-profile-hero{
+   width:1.25rem;
+  height: 1.25rem;
+  margin-left: 1rem;
+ }
+}

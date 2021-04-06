@@ -1,0 +1,53 @@
+.cust-review-container{
+width: 527px;
+height: 277px;
+position: relative;
+margin-top: 48px;
+margin-left: 72px;
+}
+
+.cust-review-text{
+    width: 527px;
+height: 226px;
+margin-top: 51px;
+background-color: #F0F2E9;
+
+margin-right: 72px;
+}
+
+.cust-img{
+    width: 100px;
+    height: 100px;
+    z-index: 5;
+    position: absolute;
+    left: 32px;
+    box-shadow: 2px 4px 16px 2px rgba(33, 68, 87, 0.3);
+}
+
+.cust-review-p{
+    position: absolute;
+/* width: 463px; */
+height: 82px;
+left: 32px;
+top: 127px;
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 200;
+font-size: 14px;
+line-height: 20px;
+color: #000000;
+margin: 0;
+}
+
+.cust-review-project-name{
+    position: absolute;
+height: 26px;
+left: 32px;
+bottom: 30px;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 25px;
+color: #000000;
+}

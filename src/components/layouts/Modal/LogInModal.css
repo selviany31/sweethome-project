@@ -1,0 +1,192 @@
+.modal-background {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  top: 0;
+  left: 0;
+  cursor: auto;
+}
+.modal-container {
+  width: 1202px;
+  height: 735px;
+  z-index: 5;
+  position: relative;
+}
+
+.modal-content {
+  right: 0;
+  background-color: #ffffff;
+  width: 607px;
+  height: 735px;
+  position: absolute;
+}
+
+.modal-content h4 {
+  position: absolute;
+  width: 89px;
+  height: 36px;
+  left: 59px;
+  top: 40px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 35px;
+  color: #214457;
+  margin: 0;
+}
+.modal-content p {
+  position: absolute;
+  height: 20px;
+  left: 59px;
+  top: 84px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #999999;
+  margin: 0;
+}
+.modal-content span {
+  color: #214457;
+  margin: 0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.modal-email {
+  position: absolute;
+  right: 55.17%;
+  left: 59px;
+  top: calc(50% - 82px / 2 - 103.5px);
+  bottom: 13.04%;
+  margin: 0;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #373737;
+}
+.email-input {
+  position: absolute;
+  height: 50px;
+  width: 470px;
+  left: 59px;
+  top: 250px;
+  border-radius: 3px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #999999;
+  padding-left: 1rem;
+  border: 1px solid #999999;
+}
+.modal-password {
+  position: absolute;
+  left: 59px;
+  top: 329px;
+  bottom: 13.04%;
+  margin: 0;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #373737;
+}
+.password-input {
+  position: absolute;
+  height: 50px;
+  width: 470px;
+  left: 59px;
+  top: 356px;
+  border-radius: 3px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #999999;
+  padding-left: 1rem;
+  border: 1px solid #999999;
+}
+
+.modal-img {
+  width: 1202px;
+  height: 735px;
+  position: absolute;
+}
+
+.login-button {
+  position: absolute;
+  width: 275px;
+  height: 55px;
+  left: 165px;
+  top: calc(50% - 55px / 2 + 143px);
+  background: #f2d555;
+  box-shadow: 0px 4px 10px rgba(33, 68, 87, 0.2);
+  margin: 0;
+  border: 1px solid #f2d555;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.line-hr {
+  position: absolute;
+  width: 468.5px;
+  height: 0px;
+  left: 69px;
+  top: calc(50% - 0px / 2 + 242.5px);
+  margin: 0;
+  border: 1px solid #e3e3e3;
+}
+.login-welcome {
+  position: absolute;
+  width: 359px;
+  height: 51px;
+  left: 26px;
+  top: 559px;
+  margin: 0;
+  font-family: EB Garamond;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  color: #ffffff;
+}
+.login-p {
+  position: absolute;
+  margin: 0;
+  width: 342px;
+  height: 70px;
+  left: 26px;
+  top: 623px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+div p.login-error-msg{
+  position: absolute;
+  left: 59px;
+  top: 412px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: red;
+}

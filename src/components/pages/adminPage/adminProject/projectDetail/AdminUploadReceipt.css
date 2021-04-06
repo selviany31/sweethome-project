@@ -1,0 +1,97 @@
+.payment-modal-container{
+    width: 660px;
+height: 612px;
+background-color: #ffffff;
+position: relative;
+}
+
+.pmt-confirm-text{
+    font-family: Noto Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 1.25rem;
+line-height: 1.75rem;
+left: 2rem;
+top: 1.5rem;
+position: absolute;
+}
+
+.receipt-upload-file{
+width: 591px;
+height: 112px;
+margin-left: 32px;
+margin-top: 109px;
+background-color: #ECEEEF;
+border-radius: 4px;
+cursor: pointer;
+position: relative;
+}
+
+.receipt-upload-file p{
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+position: absolute;
+height: 20px;
+left: 248px;
+top: 62px;
+}
+.pmt-submit-receipt{
+width: 275px;
+height: 55px;
+left: 193px;
+margin-top: 40px;
+background-color: #214457;
+color: #ffffff;
+box-shadow: 0px 4px 10px rgba(33, 68, 87, 0.2);
+border: none;
+cursor: pointer;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+margin-left:0px;
+}
+
+.pmt-preview-container{
+    display: flex;
+    justify-content: center;
+}
+.pmt-receipt-preview{
+    width: 200px;
+height: 181px;
+display: flex;
+justify-content: center;
+margin-top: 45px;
+border: 1px solid #ECEEEF;
+border-radius: 4px;
+position: relative;
+}
+
+.pmt-receipt-preview-empty{
+    width: 400px;
+height: 200px;
+display: flex;
+justify-content: center;
+margin-top: 45px;
+position: relative;
+}
+
+.pmt-receipt-preview img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.pmt-receipt-preview p{
+    top:100px;
+    position: absolute;
+    font-family: Inter;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+}

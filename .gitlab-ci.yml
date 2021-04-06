@@ -1,0 +1,36 @@
+stages:
+  - build
+  - staging
+  - production
+
+build:
+  stage: build
+  image: node:latest
+  script:
+    - yarn
+  cache:
+    paths:
+      - node_modules/
+  only:
+    - development
+    - master
+
+staging:
+  stage: staging
+  script:
+    - apt-get update -qy
+    - apt-get install -y ruby-dev
+    - gem install dpl
+    - dpl --provider=heroku --app=beta-sweethome --api-key=$HEROKU_API_KEY
+  only:
+    - development
+
+production:
+  stage: production
+  script:
+    - apt-get update -qy
+    - apt-get install -y ruby-dev
+    - gem install dpl
+    - dpl --provider=heroku --app=sweethome-apps --api-key=$HEROKU_API_KEY
+  only:
+    - master

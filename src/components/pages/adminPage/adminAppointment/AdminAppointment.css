@@ -1,0 +1,200 @@
+.adm-appointment {
+  display: flex;
+}
+.adm-appointment-link {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #999999;
+  text-decoration: none;
+}
+.adm-appointment hr {
+  border-left: 1px solid #373737;
+  border-right: 0px;
+  width: 1px;
+  height: 25px;
+  margin: 0px 10px;
+}
+
+.adm-appointment-link-active {
+  color: #373737;
+}
+.setting-adm-table {
+  width: 100%;
+}
+.setting-adm-table tr td {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #9fa2b4;
+}
+.setting-adm-table tr td:nth-child(1) {
+  width: 35%;
+}
+.setting-adm-table tr td:nth-child(2) {
+  width: 17%;
+}
+.setting-adm-table tr td:nth-child() {
+  width: 5%;
+}
+.adm-appointment-status {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  background: #3e89ae;
+  border-radius: 100px;
+  color: #ffffff;
+  padding: 5px 10px;
+}
+.adm-appointment-wrapper {
+  display: flex;
+}
+.adm-appointment-detail {
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+}
+.adm-appointment-detail p,
+.adm-appointment-detail-content p {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #373737;
+}
+.adm-appointment-detail p:nth-child(even),
+.adm-appointment-detail-content p:nth-child(even) {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.adm-appointment-detail p:nth-child(odd),
+.adm-appointment-detail-content p:nth-child(odd) {
+  color: #999999;
+}
+
+.adm-appointment-detail div:nth-child(1) {
+  margin-right: 20px;
+}
+.adm-appointment-detail-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+.adm-appointment-detail-content div:not(:nth-child(5)) {
+  width: 50%;
+}
+
+.adm-appointment-detail-img {
+  width: 150px;
+  height: 150px;
+}
+.adm-appointment-wrapper hr {
+  border-left: 0.5px solid #e3e3e3;
+  height: 170px;
+  background-color: #e3e3e3;
+  margin: 0px 20px;
+}
+.adm-appointment-detail-list {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.adm-appointment-detail-list div ul {
+  display: grid;
+}
+.adm-appointment-detail-list div ul li {
+  list-style-type: none;
+  padding-left: 10px;
+}
+.adm-appointment-detail-list div ul li:before {
+  content: "- ";
+}
+.adm-appointment-detail-list div:nth-child(3) {
+  width: 50%;
+}
+.adm-appointment-detail-list div p,
+.adm-appointment-detail-list div li {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #373737;
+}
+.adm-appointment-detail-list div p:first-child {
+  font-weight: bold;
+}
+.adm-appointment-space {
+  margin-top: 30px;
+}
+.adm-appointment-space span {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1px;
+  color: #999999;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+.adm-appointment-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.adm-appointment-row{
+  display: flex;
+}
+.adm-appointment-row div p,  .adm-appointment-text {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #999999;
+}
+.adm-appointment-calender{
+  margin: 50px 20px;
+}
+.adm-btn-status-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.adm-btn-status-wrapper button{
+  background: #FFFFFF;
+  border: 2px solid #214457;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgba(33, 68, 87, 0.2);
+  padding: 10px 40px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #214457;
+  margin: 0 10px
+}
+.adm-btn-status-wrapper button span{
+  margin-left: 10px;
+}
+.adm-btn-status-wrapper button:nth-child(even){
+  background-color: #214457;
+  color: #ffffff;
+}
